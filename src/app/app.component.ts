@@ -5,12 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: 'app/app.component.html'
 })
 
-export class AppComponent  {
+export class AppComponent {
   title = 'My Simple App';
   name = 'Vinay!';
   textColor = 'blue';
-
-
 
   changeSuitColor() {
     this.textColor = this.textColor === 'blue' ? 'red' : 'blue';
